@@ -14,3 +14,18 @@ st.write("Trabalho de Recuperação")
 st.write("Autor: Luís Formentini")
 
 st.divider()
+st.sidebar.title("Navegação")
+
+secao = st.sidebar.radio(
+    "Selecione uma seção:",
+    [
+        "Apresentação",
+        "Escolas Prioritárias",
+        "Indicadores Educacionais",
+        "Resultados de Aprendizagem",
+        "Fluxo Escolar",
+        "Série Histórica",
+        "Distribuição Geográfica",
+        "Análises e Comparações"
+    ]
+)
