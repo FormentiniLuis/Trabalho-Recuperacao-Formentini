@@ -29,3 +29,38 @@ secao = st.sidebar.radio(
         "Análises e Comparações"
     ]
 )
+if secao == "Apresentação":
+    st.header("Apresentação")
+    st.write(
+        "Bem-vindo ao aplicativo Escolas Prioritárias. "
+        "Este espaço será destinado ao acompanhamento "
+        "de indicadores educacionais."
+    )
+
+elif secao == "Escolas Prioritárias":
+    st.header("Escolas Prioritárias")
+    st.info("Espaço reservado para as listas de 2025 e 2026.")
+
+elif secao == "Indicadores Educacionais":
+    st.header("Indicadores Educacionais")
+    st.info("Espaço reservado para os indicadores educacionais.")
+
+elif secao == "Resultados de Aprendizagem":
+    st.header("Resultados de Aprendizagem")
+    st.info("Espaço reservado para os resultados do PAEBES e AMA.")
+
+elif secao == "Fluxo Escolar":
+    st.header("Fluxo Escolar")
+    st.info("Espaço reservado para aprovação, reprovação e abandono.")
+
+elif secao == "Série Histórica":
+    st.header("Série Histórica")
+    st.info("Espaço reservado para a evolução dos indicadores.")
+
+elif secao == "Distribuição Geográfica":
+    st.header("Distribuição Geográfica")
+    st.info("Espaço reservado para o mapa das Escolas Prioritárias.")
+
+elif secao == "Análises e Comparações":
+    st.header("Análises e Comparações")
+    st.info("Espaço reservado para análises comparativas.")
