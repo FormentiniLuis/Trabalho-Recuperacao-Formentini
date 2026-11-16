@@ -10,14 +10,17 @@ st.subheader(
     "Análise e acompanhamento de indicadores educacionais"
 )
 
-col1, col2 = st.columns([3, 1])
+col1, col2 = st.columns(
+    [4, 1],
+    vertical_alignment="center"
+)
 
 with col1:
     st.write("Trabalho de Recuperação")
     st.write("Autor: Luís Formentini")
 
 with col2:
-    st.image("images/foto_autor.jpg", width=180)
+    st.image("images/foto_autor.jpg", width=240)
 
 st.divider()
 st.sidebar.image("images/brasao_es.png", width=180)
