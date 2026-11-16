@@ -14,6 +14,7 @@ st.write("Trabalho de Recuperação")
 st.write("Autor: Luís Formentini")
 
 st.divider()
+st.sidebar.image("images/logo_sedu.png", width=180)
 st.sidebar.title("Navegação")
 
 secao = st.sidebar.radio(
