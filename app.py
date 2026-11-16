@@ -21,7 +21,10 @@ col1, col2 = st.columns(
 
 with col1:
     st.write("Trabalho de Recuperação")
-    st.write("Autor: Luís Formentini")
+    st.markdown(
+    "<p style='font-size:22px;'>Autor: Luís Formentini</p>",
+    unsafe_allow_html=True
+)
 
 with col2:
     st.image("images/foto_autor.jpg", width=240)
